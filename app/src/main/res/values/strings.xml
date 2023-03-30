@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Quiz_App</string>
+    <string name="fragmentLayout_sampleText">Questions</string>
+    <string name="buttonTrue">True</string>
+    <string name="buttonFalse">False</string>
+    <string name="OverAllAverage">Get The Average</string>
+    <string name="NumberOfQuestions">Select the number of Question</string>
+    <string name="ResetTheResult">Reset Result</string>
+    <string name="DialogFragmentButtonOK">OK</string>
+    <string name="DialogFragmentButtonSAVE">SAVE</string>
+    <string name="DialogFragmentButtonCancel">CANCEL</string>
+    <string name="DialogFragmentTextView">Enter the number of question less than 8</string>
+
+    <string name="question1">Manila is the capital of Philippines</string>
+    <string name="answer1">Correct</string>
+    <string name="question2">Tehran is the capital of China</string>
+    <string name="answer2">inCorrect</string>
+    <string name="question3">Riyadh is the capital of Nepal</string>
+    <string name="answer3">inCorrect</string>
+    <string name="question4">Jerusalem is the capital of Israel</string>
+    <string name="answer4">Correct</string>
+    <string name="question5">Pyongyang is the capital of North Korea</string>
+    <string name="answer5">Correct</string>
+    <string name="question6">Islamabad is the capital of Pakistan</string>
+    <string name="answer6">Correct</string>
+    <string name="question7">Kabul is the capital of Viet Nam</string>
+    <string name="answer7">inCorrect</string>
+    <string name="question8">Seoul is the capital of South Korea</string>
+    <string name="answer8">Correct</string>
+
+    <string name="displayAverageMessage">Your Correct answers / Total number of questions = </string>
+    <string name="saveAverageMessage">Your result is saved.</string>
+    <string name="numberOfQuestionsSelected">Questions are selected</string>
+    <string name="numberOfQuestionsNotSelected">Number of  question not selected</string>
+    <string name="finalResult">Result</string>
+    <string name="finalResultMessage1">Your Score is : </string>
+    <string name="finalResultMessage2"> out of </string>
+    <string name="questionSelectionFragmentError1">Enter valid number</string>
+    <string name="questionSelectionFragmentError2">Enter number of question or select CANCEL</string>
+    <string name="correctAnswer">Correct</string>
+    <string name="inCorrectAnswer">inCorrect</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz_App</string>
+    <string name="fragmentLayout_sampleText">문제</string>
+    <string name="buttonTrue">사실</string>
+    <string name="buttonFalse">거짓</string>
+    <string name="OverAllAverage">평균 구하기</string>
+    <string name="NumberOfQuestions">문제 개수 지정</string>
+    <string name="ResetTheResult">저장된 값 초기화</string>
+    <string name="DialogFragmentButtonOK">확인</string>
+    <string name="DialogFragmentButtonSAVE">저장</string>
+    <string name="DialogFragmentButtonCancel">취소</string>
+    <string name="DialogFragmentTextView">8보다 작은 문제 개수를 입력하세요</string>
+    <string name="question1">마닐라는 필리핀의 수도이다</string>
+    <string name="answer1">정답</string>
+    <string name="question2">테헤란은 중국의 수도이다</string>
+    <string name="answer2">오답</string>
+    <string name="question3">리야드는 네팔의 수도이다</string>
+    <string name="answer3">오답</string>
+    <string name="question4">예루살렘은 이스라엘의 수도이다</string>
+    <string name="question5">평양은 북한의 수도이다</string>
+    <string name="question6">이슬마바드는 파키스탄의 수도이다</string>
+    <string name="question7">카불은 베트남의 수도이다</string>
+    <string name="question8">서울은 남한의 수도이다</string>
+    <string name="displayAverageMessage">너가 맞춘 정답/전체 시도한 문제수 =</string>
+    <string name="saveAverageMessage">정답이 저장되었습니다</string>
+    <string name="numberOfQuestionsSelected">문제가 선택되었습니다</string>
+    <string name="numberOfQuestionsNotSelected">문제가 선택되지 않았습니다</string>
+    <string name="finalResult">정답</string>
+    <string name="finalResultMessage1">너의 점수는:</string>
+    <string name="finalResultMessage2">ㅇ</string>
+    <string name="questionSelectionFragmentError1">유효한 숫자를 입력하시오</string>
+    <string name="questionSelectionFragmentError2">문제수를 선택하세요</string>
+    <string name="correctAnswer">정답</string>
+    <string name="inCorrectAnswer">오답</string>
+    <string name="answer8">정답</string>
+    <string name="answer6">정답</string>
+    <string name="answer5">정답</string>
+    <string name="answer4">정답</string>
+    <string name="answer7">오답</string>
+</resources>
