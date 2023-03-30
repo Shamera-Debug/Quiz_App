@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements Fragment.DialogCl
         int tempQNumber = qNumber;
         while(tempQNumber == qNumber)
         {
-            qNumber = new Random().nextInt(9-1)+1;
+            qNumber = new Random().nextInt(8)+1;
         }
         str = "question" + qNumber;
         colorNumber = Color.argb(255, new Random().nextInt(256), new Random().nextInt(256), new Random().nextInt(256));
