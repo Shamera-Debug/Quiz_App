@@ -23,14 +23,6 @@ public class Fragment extends DialogFragment
 
 
 
-    public interface DialogClickListener
-    {
-        void dialogListenerWithQuestion(String nQuestion);
-        void dialogListenerWithCancel();
-    }
-
-
-
     @Override
     public void onSaveInstanceState(Bundle outState)
     {
@@ -94,5 +86,12 @@ public class Fragment extends DialogFragment
         });
 
         return v;
+    }
+
+
+    public interface DialogClickListener
+    {
+        void dialogListenerWithQuestion(String nQuestion);
+        void dialogListenerWithCancel();
     }
 }
