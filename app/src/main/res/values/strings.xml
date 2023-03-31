@@ -1,16 +1,5 @@
 <resources>
     <string name="app_name">Quiz_App</string>
-    <string name="fragmentLayout_sampleText">Questions</string>
-    <string name="buttonTrue">True</string>
-    <string name="buttonFalse">False</string>
-    <string name="OverAllAverage">Get The Average</string>
-    <string name="NumberOfQuestions">Select the number of Question</string>
-    <string name="ResetTheResult">Reset Result</string>
-    <string name="DialogFragmentButtonOK">OK</string>
-    <string name="DialogFragmentButtonSAVE">SAVE</string>
-    <string name="DialogFragmentButtonCancel">CANCEL</string>
-    <string name="DialogFragmentTextView">Enter the number of question less than 8</string>
-
     <string name="question1">Manila is the capital of Philippines</string>
     <string name="answer1">Correct</string>
     <string name="question2">Tehran is the capital of China</string>
@@ -27,6 +16,17 @@
     <string name="answer7">inCorrect</string>
     <string name="question8">Seoul is the capital of South Korea</string>
     <string name="answer8">Correct</string>
+
+    <string name="fragmentLayout_sampleText">Questions</string>
+    <string name="buttonTrue">True</string>
+    <string name="buttonFalse">False</string>
+    <string name="OverAllAverage">Get The Average</string>
+    <string name="NumberOfQuestions">Select the number of Question</string>
+    <string name="ResetTheResult">Reset Result</string>
+    <string name="DialogFragmentButtonOK">OK</string>
+    <string name="DialogFragmentButtonSAVE">SAVE</string>
+    <string name="DialogFragmentButtonCancel">CANCEL</string>
+    <string name="DialogFragmentTextView">Enter the number of question less than 8</string>
 
     <string name="displayAverageMessage">Your Correct answers / Total number of questions = </string>
     <string name="saveAverageMessage">Your result is saved.</string>

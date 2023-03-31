@@ -23,6 +23,7 @@ public class StorageManager
 
         try
         {
+            int read;
             File file = new File(context.getFilesDir(), fileName);
             if(!file.exists())
             {
@@ -35,7 +36,6 @@ public class StorageManager
 
             InputStreamReader inputStreamReader = new InputStreamReader(fIn, StandardCharsets.UTF_8);
 
-            int read;
             while ((read = inputStreamReader.read()) != -1)
             {
                 stringBuffer.append((char)read);
@@ -52,11 +52,9 @@ public class StorageManager
                     }
                 }
             }
-
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         return list;
     }
 

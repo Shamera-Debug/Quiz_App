@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-
     <item
-        android:id="@+id/subMenuAverage"
+        android:id="@+id/menuAverage"
         android:title="@string/OverAllAverage"
         app:showAsAction="never"/>
-
     <item
-        android:id="@+id/subMenuNumberOfQuestions"
+        android:id="@+id/menuNumberOfQuestion"
         android:title="@string/NumberOfQuestions"
         app:showAsAction="never"/>
-
     <item
-        android:id="@+id/subMenuReset"
+        android:id="@+id/menuReset"
         android:title="@string/ResetTheResult"
         app:showAsAction="never"/>
 </menu>

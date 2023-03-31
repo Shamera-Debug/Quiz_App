@@ -1,6 +1,5 @@
 package com.example.Quiz_App;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
@@ -30,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements Fragment.DialogCl
 
 
     @Override
-    protected void onSaveInstanceState(@NonNull Bundle outState)
+    protected void onSaveInstanceState(Bundle outState)
     {
         super.onSaveInstanceState(outState);
 
@@ -125,7 +124,7 @@ public class MainActivity extends AppCompatActivity implements Fragment.DialogCl
 
         switch (item.getItemId())
         {
-            case R.id.subMenuAverage:
+            case R.id.menuAverage:
                 storageManager.readAllValuesFromFile(MainActivity.this);
                 ArrayList<Integer> tempList;
                 tempList = storageManager.readAllValuesFromFile(MainActivity.this);
@@ -149,7 +148,7 @@ public class MainActivity extends AppCompatActivity implements Fragment.DialogCl
                 avgAlertDialog.setCancelable(false);
                 break;
 
-            case R.id.subMenuNumberOfQuestions:
+            case R.id.menuNumberOfQuestion:
                 Fragment dialog = Fragment.newInstance(getString(R.string.DialogFragmentTextView));
                 dialog.show(fm, Fragment.Tag);
                 dialog.listener = this;
@@ -157,7 +156,7 @@ public class MainActivity extends AppCompatActivity implements Fragment.DialogCl
                 dialog.setCancelable(false);
                 break;
 
-            case R.id.subMenuReset:
+            case R.id.menuReset:
                 totalCorrectAnswer = 0;
                 totalAttempt = 0;
                 storageManager.writeResultToFile(MainActivity.this, totalCorrectAnswer, totalAttempt);

@@ -11,8 +11,8 @@ import androidx.fragment.app.Fragment;
 public class QuestionFragment extends Fragment
 {
 
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+    private static final String par1 = "param1";
+    private static final String par2 = "param2";
     String question;
     int colorCode;
 
@@ -20,8 +20,8 @@ public class QuestionFragment extends Fragment
     {
         QuestionFragment fragment = new QuestionFragment();
         Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, question);
-        args.putInt(ARG_PARAM2, colorCode);
+        args.putString(par1, question);
+        args.putInt(par2, colorCode);
         fragment.setArguments(args);
         return fragment;
     }
@@ -30,19 +30,19 @@ public class QuestionFragment extends Fragment
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        if(getArguments() != null){
-            question = getArguments().getString(ARG_PARAM1);
-            colorCode = getArguments().getInt(ARG_PARAM2);
+        if(getArguments() != null)
+        {
+            question = getArguments().getString(par1);
+            colorCode = getArguments().getInt(par2);
         }
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
-
         View v = inflater.inflate(R.layout.fragment_question,container,false);
 
-        ConstraintLayout layout = v.findViewById(R.id.main_fragment_Question_layout);
+        ConstraintLayout layout = v.findViewById(R.id.fragmentQuestionLayout);
         TextView textView = v.findViewById(R.id.textViewQuestion);
         textView.setText(question);
         layout.setBackgroundColor(colorCode);
